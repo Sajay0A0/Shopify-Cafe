@@ -3595,3 +3595,15 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+.card__content{
+  height:50px;
+}
+.card__media{
+  height:250px;
+}
+.card--media .card__inner .card__content {
+    position: relative;
+    padding: calc(var(--image-padding) + 1rem);
+    height: 250px;
+}
